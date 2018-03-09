@@ -17,4 +17,8 @@ public class Accessory extends Product {
     public AccessoryType getType() {
         return type;
     }
+
+    public String getMake() {
+        return make;
+    }
 }
