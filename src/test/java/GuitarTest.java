@@ -34,7 +34,7 @@ public class GuitarTest {
 
     @Test
     public void testColour(){
-        assertEquals(("black", guitar.getColour());
+        assertEquals("black", guitar.getColour());
     }
 
     @Test
@@ -54,6 +54,6 @@ public class GuitarTest {
 
     @Test
     public void testRetailPrice(){
-        assertEquals((50.00, guitar.getRetailPrice(), 0.01);
+        assertEquals(50.00, guitar.getRetailPrice(), 0.01);
     }
 }
