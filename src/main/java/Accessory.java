@@ -13,4 +13,8 @@ public class Accessory extends Product {
     public double calculateMarkUp() {
         return 0;
     }
+
+    public AccessoryType getType() {
+        return type;
+    }
 }
