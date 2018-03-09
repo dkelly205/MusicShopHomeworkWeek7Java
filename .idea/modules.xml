@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeekendHomeWorkMusicShopWeek7.iml" filepath="$PROJECT_DIR$/.idea/modules/WeekendHomeWorkMusicShopWeek7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeekendHomeWorkMusicShopWeek7_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WeekendHomeWorkMusicShopWeek7_main.iml" group="WeekendHomeWorkMusicShopWeek7" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeekendHomeWorkMusicShopWeek7_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WeekendHomeWorkMusicShopWeek7_test.iml" group="WeekendHomeWorkMusicShopWeek7" />
     </modules>
   </component>
 </project>

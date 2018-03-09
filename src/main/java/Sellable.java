@@ -1,5 +1,5 @@
 public interface Sellable {
 
-    public double sell();
+    public double calculateMarkUp();
 }
 
