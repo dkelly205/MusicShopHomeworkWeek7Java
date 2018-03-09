@@ -19,7 +19,7 @@ public class Electrophone extends Instrument {
 
     @Override
     public double calculateMarkUp() {
-        return 0;
+        return getRetailPrice() - getTradePrice();
     }
 
     public ElectroPhoneType getType() {

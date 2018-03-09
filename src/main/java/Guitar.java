@@ -16,7 +16,7 @@ public class Guitar extends Instrument {
 
     @Override
     public double calculateMarkUp() {
-        return 0;
+        return getRetailPrice() - getTradePrice();
     }
 
     public GuitarType getType() {

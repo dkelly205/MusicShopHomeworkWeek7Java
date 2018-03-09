@@ -22,4 +22,13 @@ public class ElectrophoneTest {
     public void testNumberOfKeys() {
         assertEquals(24, keyboard.getNumberOfKeys());
     }
+
+    @Test
+    public void testCalculateMarkUp(){assertEquals(30.00, keyboard.calculateMarkUp(), 0.01);}
+
+    @Test
+    public void testPlay() {assertEquals("beep", keyboard.play());
+    }
+
+
 }
