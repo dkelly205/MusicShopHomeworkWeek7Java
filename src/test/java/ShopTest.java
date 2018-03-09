@@ -17,4 +17,7 @@ public class ShopTest {
     @Test
     public void testName() {assertEquals("The Music Shop", shop.getName());
     }
+
+    @Test
+    public void testStockStartsEmpty(){assertEquals(0, shop.stockCount());}
 }
