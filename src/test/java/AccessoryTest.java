@@ -30,6 +30,6 @@ public class AccessoryTest {
 
     @Test
     public void testRetailPrice(){
-        assertEquals(3.00, accessory.getRetailPrice());
+        assertEquals(3.00, accessory.getRetailPrice(), 0.01);
     }
 }

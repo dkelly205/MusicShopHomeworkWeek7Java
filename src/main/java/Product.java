@@ -7,4 +7,12 @@ public abstract class Product implements Sellable {
         this.tradePrice = tradePrice;
         this.retailPrice = retailPrice;
     }
+
+    public double getTradePrice() {
+        return tradePrice;
+    }
+
+    public double getRetailPrice() {
+        return retailPrice;
+    }
 }
