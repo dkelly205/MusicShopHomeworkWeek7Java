@@ -1,4 +1,4 @@
-public class Accessory extends Product {
+public class Accessory extends Product implements Sellable {
 
     private String make;
     private AccessoryType type;

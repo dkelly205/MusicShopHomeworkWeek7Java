@@ -32,4 +32,6 @@ public class AccessoryTest {
     public void testRetailPrice(){
         assertEquals(3.00, accessory.getRetailPrice(), 0.01);
     }
+
+
 }
