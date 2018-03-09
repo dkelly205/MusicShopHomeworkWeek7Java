@@ -4,5 +4,6 @@ public enum GuitarType {
 
     ACOUSTIC,
     BASS,
-    ELECTRIC
+    ELECTRIC,
+    ELECTRO_ACOUSTIC
 }
