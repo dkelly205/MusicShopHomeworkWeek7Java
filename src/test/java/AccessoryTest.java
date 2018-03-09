@@ -33,5 +33,7 @@ public class AccessoryTest {
         assertEquals(3.00, accessory.getRetailPrice(), 0.01);
     }
 
-
+    @Test
+    public void testCalculateMarkup() {assertEquals(2.00, accessory.calculateMarkUp(), 0.01);
+    }
 }

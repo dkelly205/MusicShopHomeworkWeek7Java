@@ -11,7 +11,7 @@ public class Guitar extends Instrument {
 
     @Override
     public String play() {
-        return null;
+        return this.getSound();
     }
 
     @Override

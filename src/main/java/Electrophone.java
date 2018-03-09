@@ -14,7 +14,7 @@ public class Electrophone extends Instrument {
 
     @Override
     public String play() {
-        return null;
+        return getSound();
     }
 
     @Override

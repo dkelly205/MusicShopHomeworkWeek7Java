@@ -11,7 +11,7 @@ public class Accessory extends Product implements Sellable {
 
     @Override
     public double calculateMarkUp() {
-        return 0;
+        return getRetailPrice() - getTradePrice();
     }
 
     public AccessoryType getType() {
