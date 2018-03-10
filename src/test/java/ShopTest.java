@@ -27,4 +27,15 @@ public class ShopTest {
         shop.addProduct(guitar);
         assertEquals(1, shop.stockCount());
     }
+
+    @Test
+    public void testCanRemoveProductFromStock(){
+        for(int i = 0; i < 10; i++){
+            shop.addProduct(guitar);
+        }
+        shop.removeProduct(guitar);
+        assertEquals(9, shop.stockCount());
+    }
+
+
 }
