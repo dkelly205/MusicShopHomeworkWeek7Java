@@ -37,5 +37,15 @@ public class ShopTest {
         assertEquals(9, shop.stockCount());
     }
 
+    @Test
+    public void testTotalPotentialProfit(){
+        for(int i = 0; i < 3; i++) {
+            shop.addProduct(guitar);
+        }
+            assertEquals(90.00, shop.totalPotentialProfit(), 0.01);
+    }
+
+
+
 
 }
