@@ -32,7 +32,6 @@ public class Shop {
         for(Product product : stock){
             total += product.calculateMarkUp();
         }
-
         return total;
 
     }
