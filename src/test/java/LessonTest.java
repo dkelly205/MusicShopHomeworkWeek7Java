@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 
 public class LessonTest {
 
+    Lesson lesson;
+
     @Before
     public void setUp() throws Exception {
         lesson = new Lesson(LessonType.GUITAR, 25.00);
@@ -17,6 +19,6 @@ public class LessonTest {
 
     @Test
     public void testLessonPrice(){
-        assertEquals(25.00, lesson.calculateMarkUp());
+        assertEquals(25.00, lesson.calculateMarkUp(), 0.01);
     }
 }
