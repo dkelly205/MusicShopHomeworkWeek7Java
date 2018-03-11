@@ -4,10 +4,12 @@ public class Shop {
     
     private String name;
     private ArrayList<Product> stock;
+    private ArrayList<Lesson> lessons;
 
     public Shop(String name) {
         this.name = name;
         this.stock = new ArrayList<>();
+        this.lessons = new ArrayList<>();
     }
 
     public String getName() {
